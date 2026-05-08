@@ -1,0 +1,28 @@
+/*Tablet*/
+@media (max-width: 1024px) {}
+/*Mobile*/
+@media (max-width:768px) {}
+
+@media (max-width: 768px) {
+  section {
+    background-color: lightblue;
+  }
+}
+
+@media (max-width: 600px) {
+    main {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
